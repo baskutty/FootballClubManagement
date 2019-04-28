@@ -1,0 +1,194 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  
+
+}
+.navbar-brand{
+	
+	font-size:30px;
+}
+.navbar-nav{
+	font-family:"Arvo",courier,serif;
+	font-size:20px;
+}
+.jumbotron{
+	text-align: center;
+    background-image: url(../images/back.jpg);
+    background-size: cover;
+    margin-bottom: 0px;
+	
+  /* Set up positioning */
+  
+}
+.opac
+{
+	background:#bdc3c0;
+	opacity:0.7;
+}
+#pp
+{
+	opacity:1;
+}
+.btn-lg{
+	font-size: 36px;
+}
+#col2{
+	background-color: #a3b98a;
+	padding-top:30px;
+	padding-bottom: 30px;
+	margin-top: 0px;
+}
+#col{
+	background-color: #62888c;
+}
+#col3{
+	color:;
+	background-color: #500b0b;
+	padding-bottom: 30px;
+	margin-bottom: 0;
+}
+#contact{
+background-color: #500b0b;
+text-align: left;
+padding-bottom: 30px;
+	padding-top: 30px
+
+	}
+#contact h2{
+	
+	font-size: 20px;
+
+
+	}
+#contact h3{
+	
+	font-size: 15px;
+
+
+	}
+
+.jumbotron h1{
+	margin-top: 0px;
+	margin-bottom: 30px;
+	
+}
+.jumbotron p{
+	margin-top: 0px;
+	margin-bottom: 30px;
+	font-weight: 200;
+	
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom:20px;
+}
+.containera{
+	background: #000;
+    color: #fff;
+    opacity: 0.4;
+}
+.join{
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 30px
+	
+	
+
+}
+.join h3{
+	font-size:30px;
+
+	}
+.join h2{
+	font-family:"Arvo",courier,serif;
+	font-size:50px;
+	color:#b34009;
+	}
+.join p{
+		font-size: 18px;
+		font-weight: 200;
+	}
+.join hr
+{
+		border-color:#b34009;
+		width:170px;
+		margin-top: 12px;
+	}
+
+@media (max-width: 1199px) { 
+
+.jumbotron {
+    padding-top: 00px;
+    padding-bottom: 0px;
+}
+.jumbotron h1 {
+    padding-top: 20px;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.jumbotron p {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-weight: 200;
+}
+}
+@media (max-width: 991px) { 
+
+.jumbotron {
+    padding-top: 00px;
+    padding-bottom: 0px;
+}
+.jumbotron h1 {
+    padding-top: 20px;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.jumbotron p {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-weight: 200;
+}
+}
+@media (max-width: 767px) { 
+
+.jumbotron {
+    padding-top: 00px;
+    padding-bottom: 0px;
+
+}
+.jumbotron h1 {
+    padding-top: 20px;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+}
+.jumbotron p {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-weight: 200;
+}
+
+.join p{
+	font-size: 12px;
+	padding-top:0px;
+	padding-bottom: :30px;
+}
+.join h3{
+	font-size: 20px;
+	padding-top:0px;
+	padding-bottom: :0px;
+}
+.join .col-md-4
+{
+	padding-bottom: 40px;
+}
+}

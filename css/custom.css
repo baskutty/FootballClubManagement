@@ -1,0 +1,196 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 241px;
+  background-color: #821d1d;
+padding-left: 0px;
+padding-bottom: 0px;
+margin-bottom: 0px;
+}
+
+.logo
+{padding-left:0;
+	margin: 0;
+	font-size: 0;
+	width:25%;
+	height: 140px;
+}
+.ad
+{padding-left:0;
+	font-size: 0;
+	width:75%;
+	margin: 0;
+	height: 140px;
+
+}
+
+
+.navbar-brand
+{
+	font-size: 20px;
+}
+
+
+.navbar-nav
+{
+	font-size: 18px;
+}
+
+.search1
+{
+	padding-right: 5px;
+}
+
+
+
+
+.navbar-fixed-top
+{background-color: #0f4418;
+    
+
+}
+
+.content_wrapper {
+
+
+background:#821d1d;
+
+}
+
+#content_area {
+width:1090px;
+float:right;
+
+
+margin-left: 50px;
+padding-left: 5px;
+color: black;
+}
+
+#sidebar {
+width:200px;
+background:#c0cc0e;
+background-color: #0f4418;
+float:left;
+
+margin-right: 0;
+
+}
+
+#sidebar_title {
+background:#c0cc0e;
+color:black;
+font-size:22px;
+font-family:arial; 
+padding:10px;
+text-align:center;
+color:black;
+margin-left: 2;
+}
+#cats
+{
+        text-align: left;
+    padding: 15;
+}
+
+#cats li{
+        text-decoration: none;
+        list-style: none;
+       
+    }
+
+.sidebar
+{  position: fixed;
+     top: 241;
+    bottom: 0;
+    overflow-y:scroll;
+ padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+    background-color: #0f4418;
+    height:100%;
+}
+.nav-sidebar
+{background-color: #0f4418;
+
+}
+
+.sidebar a:focus,.sidebar a:hover
+{
+    background-color: blue;
+    text-decoration: none;
+    color:#011cea;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #735112;
+}
+#footer
+{background-color:#c0cc0e;
+
+}
+
+
+
+.main
+{    padding-left: 0px;
+    width: 83.33333333%;
+    display: inline-block;
+    float: right;
+    color:black;
+}
+
+
+#single_product
+{  
+    margin-left: 50px;
+    padding: 10px;
+    text-align: center;
+    width:210px;
+    display: inline-block;
+    background-color: white;
+    margin-bottom: 20px;
+   }
+#single_product h4
+{
+
+    color: green;
+}
+
+
+#cart
+{
+    height:50px;
+    background-color: #0f4418;
+}
+
+#single_details
+{  
+    margin-left: 50px;
+    padding: 10px;
+    text-align: center;
+    width:220px;
+    display: inline-block;
+    background-color: white;
+    margin-bottom: 20px;
+   }
+
+#products
+{
+    padding-top: 15px;
+}
+#details
+{
+    padding-top: 15px;
+}
+@media (max-width: 1094px) { 
+body
+ {
+  padding-top: 291px;
+}
+.sidebar
+{  
+     top: 291;
+
+
+    }
+}
